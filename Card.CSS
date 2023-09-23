@@ -1,0 +1,21 @@
+.card{
+    background-color: rgb(195, 222, 135);
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid green;
+    margin-top: 10px;
+}
+.card img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
